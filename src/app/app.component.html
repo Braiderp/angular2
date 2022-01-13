@@ -1,3 +1,15 @@
-<input type="text" [(ngModel)]="name" />
-
-<p>Hello my name is: {{name}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Welcome</h3>
+            <input type="text" [(ngModel)]="name" />
+            
+            <p>Hello my name is: {{name}}</p>
+            
+            <hr>
+            <app-servers></app-servers>
+            <app-warning-alert></app-warning-alert>
+            <app-success-alert></app-success-alert>
+        </div>
+    </div>
+</div>
